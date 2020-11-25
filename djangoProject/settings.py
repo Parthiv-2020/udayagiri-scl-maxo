@@ -29,12 +29,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.messages',
     'django.contrib.sites',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
 ]
+
+# Email
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+
+SITE_ID = 1
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_EMAIL_VERIFICATION = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
