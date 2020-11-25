@@ -24,7 +24,7 @@ with open(BASE_DIR / 'configs/configs.json') as config_file:
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'f^5nmh4nt)r-ly-s1m0((u(2o^b@14(4c)_37l2w8veyfy()1s'
+SECRET_KEY = config.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
