@@ -1,6 +1,7 @@
 from django.shortcuts import render
 
 def user_login(request):
+    if request.method == 'POST':
     return render(request, 'auth_templates/login.html')
 
 def user_register(request):
