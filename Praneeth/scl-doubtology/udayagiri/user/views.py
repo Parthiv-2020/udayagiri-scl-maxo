@@ -11,6 +11,7 @@ def user_login(request):
         if user is not None:
             auth.login(request, user)
             messages.warning(request, "You are logged in")
+            return redirect('home')
         else:
             messages.warning(request, "Invalid credentials")
             return redirect('login')
