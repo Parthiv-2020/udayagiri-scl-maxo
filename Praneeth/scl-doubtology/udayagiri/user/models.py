@@ -14,5 +14,5 @@ class Profile(models.Model):
     role = models.ForeignKey(Role, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f'{user}'
+        return f'Praneeth'
     
