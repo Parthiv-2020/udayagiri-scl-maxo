@@ -37,11 +37,10 @@ def user_register(request):
                     messages.warning(request, 'Email already exists')
                     return redirect('register')
                 else:
-                    # user = User.objects.create_user(
-                    #     first_name=first_name, last_name=last_name, username=username, email=email, password=password
-                    # )
-                    # user.save()
-                    print(first_name, last_name, email, password)
+                    user = User.objects.create_user(
+                        first_name=first_name, last_name=last_name, username=username, email=email, password=password
+                    )
+                    user.save()
                     messages.success(request, 'Account created successfully')
                     return redirect('login')
         messages.warning(request, 'Password do not match')
