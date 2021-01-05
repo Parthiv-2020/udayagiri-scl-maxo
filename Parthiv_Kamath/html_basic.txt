@@ -1,9 +1,0 @@
-from scrapy import Selector
-html = ''' <html>
-           <body>
-           <div>
-           <p>This is web scraping using scrapy from python</p>
-           </div>
-           </body>
-           </html> '''
-sel = Selector(text=html)
