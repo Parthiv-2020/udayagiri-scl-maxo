@@ -3,9 +3,9 @@ from .models import Teacher
 
 
 def teachers(request):
-    teacher = Teacher.objects.order_by('-created_date')
+    teachers = Teacher.objects.order_by('-created_date')
     data = {
-        'teacher': teacher
+        'teachers': teachers
     }
     return render(request, 'webpages/teacher.html', data)
 

@@ -17,11 +17,6 @@
           <h1 class="text-center">{{tuber.name}}</h1>
         </div>
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-          <h1 class="text-accent text-center">
-            $ {{teacher.price}}
-          </h1>
-        </div>
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
           <img src="{{teacher.photo.url}}" class="img-fluid" alt="team-member">
         </div>
       </div>
@@ -44,19 +39,13 @@
       <div class="person-description mt-2">
         <button class="btn btn-accent"> City: {{teacher.city}} </button>
         <button class="btn btn-accent"> Age: {{teacher.age}} </button>
-        <button class="btn btn-accent"> Height: {{teacher.height}} </button>
-      </div>
-      <div class="person-description mt-2">
-        <button class="btn btn-accent"> Solo: {{teacher.crew}} </button>
-        <button class="btn btn-accent"> Canon: {{teacher.camera_type}} </button>
-        <button class="btn btn-accent"> Subs: {{teacher.subs_count}} </button>
       </div>
 
     </section>
-
+{% comment %} 
     <section class="youtuber-form container mt-5 mb-5">
       <div class="row">
-        <form method="POST" action="{% url 'youtuber' %}" class="col-md-8 offset-md-2">
+        <form method="POST" action="{% url 'student' %}" class="col-md-8 offset-md-2">
           <h3 class="pt-2 pb-2">Fill the Form and reach out</h3>
           {% csrf_token %}
           {% if user.is_authenticated %}
@@ -114,7 +103,7 @@
         </form>
       </div>
 
-    </section>
+    </section> {% endcomment %}
 
   </main>
 
