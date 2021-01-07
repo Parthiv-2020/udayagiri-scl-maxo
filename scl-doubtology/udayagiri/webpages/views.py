@@ -4,7 +4,7 @@ def home(request):
     return render(request, 'webpages/home.html')
 
 def about(request):
-    return render(request, 'webpages/about.html')
+    return render(request, 'webpages/services.html')
 
 
 def contact(request):
