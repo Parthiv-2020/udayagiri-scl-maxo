@@ -8,6 +8,7 @@ urlpatterns = [
     path('', include('webpages.urls')),
     path('', include('user.urls')),
     path('accounts/', include('allauth.urls')),
+    path('teacher/', include('teachers.urls')),
 ]
 
 
