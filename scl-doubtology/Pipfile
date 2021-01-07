@@ -9,6 +9,8 @@ django = "*"
 psycopg2 = "*"
 djangocms-admin-style = "*"
 django-allauth = "*"
+django-ckeditor = "*"
+django-countries = "*"
 
 [dev-packages]
 
