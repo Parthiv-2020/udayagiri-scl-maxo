@@ -11,6 +11,7 @@ djangocms-admin-style = "*"
 django-allauth = "*"
 django-ckeditor = "*"
 django-countries = "*"
+django-crispy-forms = "*"
 
 [dev-packages]
 

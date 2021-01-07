@@ -30,7 +30,8 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'ckeditor'
+    'ckeditor',
+    'crispy_forms'
 ]
 
 MIDDLEWARE = [
@@ -142,3 +143,5 @@ CKEDITOR_CONFIGS = {
         'extraPlugins': 'justify,liststyle,indent',
    },
 }
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
