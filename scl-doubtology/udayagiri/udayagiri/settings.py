@@ -17,6 +17,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'webpages.apps.WebpagesConfig',
     'teachers.apps.TeachersConfig',
+    'students.apps.StudentsConfig',
     'user.apps.UserConfig',
     'djangocms_admin_style',
     'django.contrib.admin',
