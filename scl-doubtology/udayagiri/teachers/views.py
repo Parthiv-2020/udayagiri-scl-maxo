@@ -25,7 +25,7 @@ def search(request):
     if 'queryset' in request.GET:
         queryset = request.GET['queryset']
         if queryset:
-            teacher = teacher.filter(description__icontains=queryset)
+            teacher = teacher.filter(name__icontains=queryset)
 
 
     data = {
