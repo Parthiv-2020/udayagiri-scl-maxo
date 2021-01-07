@@ -7,7 +7,7 @@ def teachers(request):
     data = {
         'teachers': teachers
     }
-    return render(request, 'webpages/teacher.html', data)
+    return render(request, 'teachers/teacher.html', data)
 
 
 def teacher_detail(request, id):
@@ -15,7 +15,7 @@ def teacher_detail(request, id):
     data = {
         'teacher': teacher
     }
-    return render(request, 'webpages/teacher_detail.html', data)
+    return render(request, 'teachers/teacher_detail.html', data)
 
 
 def search(request):
@@ -32,4 +32,4 @@ def search(request):
         'teachers': teacher,
         'query': queryset
     }
-    return render(request, 'webpages/teacher.html', data)
+    return render(request, 'teachers/teacher.html', data)
