@@ -87,7 +87,7 @@
     
     <h4 class="mt-4">Introduction video</h4>
     <div class="embed-responsive embed-responsive-16by9 mb-3">
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+      <iframe class="embed-responsive-item" src="{{teacher.video_url}}" allowfullscreen></iframe>
     </div>
         
         <hr>
@@ -98,11 +98,43 @@
       </p>
     
     <hr>
+                  <div class="col">
+                    <div class="row">
+                        <div class="col-lg-3 mb-4">
+                            <div class="card text-white bg-primary shadow">
+                                <div class="card-body">
+                                    <p class="text-white-50 m-0">Country</p>
+                                    <p class="m-0">{{teacher.country}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4">
+                            <div class="card text-white bg-info shadow">
+                                <div class="card-body">
+                                    <p class="text-white-50 m-0">City</p>
+                                    <p class="m-0">{{teacher.city}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4">
+                            <div class="card text-white bg-primary shadow">
+                                <div class="card-body">
+                                    <p class="text-white-50 m-0">Age</p>
+                                    <p class="m-0">{{teacher.age}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4">
+                            <div class="card text-white bg-info shadow">
+                                <div class="card-body">
+                                    <p class="text-white-50 m-0">Joined</p>
+                                    <p class="m-0">{{teacher.created_date}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-      <div class="person-description">
-        <button class="btn btn-accent"> City: {{teacher.city}} </button>
-        <button class="btn btn-accent"> Age: {{teacher.age}} </button>
-      </div>
 
  
 <hr>
@@ -170,8 +202,7 @@
 
   </main>
 
-            </div>
-
+  </div>
  </div>
 
 
