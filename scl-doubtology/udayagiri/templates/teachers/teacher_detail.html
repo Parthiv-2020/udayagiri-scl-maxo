@@ -10,8 +10,71 @@
                     <h3 class="text-dark mb-0">Teachers</h3></div>
 
 <main class="single-page-tubers">
+                <div class="row">
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <div class="card shadow border-left-primary py-2">
+                            <div class="card-body">
+                                <div class="row align-items-center no-gutters">
+                                    <div class="col mr-2">
+                                        <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>Earnings (monthly)</span></div>
+                                        <div class="text-dark font-weight-bold h5 mb-0"><span>$40,000</span></div>
+                                    </div>
+                                    <div class="col-auto"><i class="fas fa-calendar fa-2x text-gray-300"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <div class="card shadow border-left-success py-2">
+                            <div class="card-body">
+                                <div class="row align-items-center no-gutters">
+                                    <div class="col mr-2">
+                                        <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span>Earnings (annual)</span></div>
+                                        <div class="text-dark font-weight-bold h5 mb-0"><span>$215,000</span></div>
+                                    </div>
+                                    <div class="col-auto"><i class="fas fa-dollar-sign fa-2x text-gray-300"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <div class="card shadow border-left-info py-2">
+                            <div class="card-body">
+                                <div class="row align-items-center no-gutters">
+                                    <div class="col mr-2">
+                                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span>Tasks</span></div>
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col-auto">
+                                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"><span>50%</span></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="progress progress-sm">
+                                                    <div class="progress-bar bg-info" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto"><i class="fas fa-clipboard-list fa-2x text-gray-300"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <div class="card shadow border-left-warning py-2">
+                            <div class="card-body">
+                                <div class="row align-items-center no-gutters">
+                                    <div class="col mr-2">
+                                        <div class="text-uppercase text-warning font-weight-bold text-xs mb-1"><span>Pending Requests</span></div>
+                                        <div class="text-dark font-weight-bold h5 mb-0"><span>18</span></div>
+                                    </div>
+                                    <div class="col-auto"><i class="fas fa-comments fa-2x text-gray-300"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <section class="head container mt-5 mb-5">
+    
       <div class="row">
         <div class="col-md-4 d-flex justify-content-center align-items-center">
           <h1 class="text-center">{{tuber.name}}</h1>
@@ -20,28 +83,28 @@
           <img src="{{teacher.photo.url}}" class="img-fluid" alt="team-member">
         </div>
       </div>
-    </section>
+    
     <section class="video container text-center">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/{{teacher.video_url}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
-    <section class="descritpion container">
+    
       <h4>Descritpion</h4>
-      <p class="mt-2 mb-2">
+      <p class="lead">
           {{teacher.description | safe }}
       </p>
 
       
 
-    </section>
+   
 
-    <section class="container w-50">
+    
 
-      <div class="person-description mt-2">
+      <div class="person-description">
         <button class="btn btn-accent"> City: {{teacher.city}} </button>
         <button class="btn btn-accent"> Age: {{teacher.age}} </button>
       </div>
 
-    </section>
+ 
 
     <section class="youtuber-form container mt-5 mb-5">
       <div class="row">
