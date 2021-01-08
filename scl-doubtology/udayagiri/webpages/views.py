@@ -5,6 +5,8 @@ from .models import Contact
 def home(request):
     return render(request, 'webpages/home.html')
 
+def about(request):
+    return render(request, 'webpages/about.html')
 
 def contact(request):
     if request.POST:
