@@ -73,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-
+<hr>
     
       <div class="row">
         <div class="col-md-4 d-flex justify-content-center align-items-center">
@@ -83,17 +83,21 @@
           <img src="{{teacher.photo.url}}" class="img-fluid rounded" alt="{{teacher.name}}">
         </div>
       </div>
+      <hr>
     
     <h4 class="mt-4">Introduction video</h4>
     <div class="embed-responsive embed-responsive-16by9 mb-3">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
     </div>
         
+        <hr>
+
       <h4>Descritpion</h4>
       <p class="lead">
           {{teacher.description | safe }}
       </p>
     
+    <hr>
 
       <div class="person-description">
         <button class="btn btn-accent"> City: {{teacher.city}} </button>
@@ -101,7 +105,7 @@
       </div>
 
  
-
+<hr>
     <section class="youtuber-form container mt-5 mb-5">
       <div class="row">
         <form method="POST" action="{% url 'student' %}" class="col-md-8 offset-md-2">
