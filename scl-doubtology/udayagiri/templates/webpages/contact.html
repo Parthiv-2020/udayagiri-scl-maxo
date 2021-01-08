@@ -1,20 +1,22 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs" data-aos="fade-in">
-      <div class="container">
-        <h2>Contact Us</h2>
-      </div>
-    </div><!-- End Breadcrumbs -->
+
+<div class="d-flex flex-column" id="content-wrapper">
+
+{% include 'includes/search_bar.html' %}
+
+            <div class="container-fluid">
+                <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                    <h3 class="text-dark mb-0">Contact Us</h3></div>
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
-      <div data-aos="fade-up">
+    
         <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.098802476371!2d74.87307831476993!3d12.901367990901917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba359f81a0744bd%3A0xfeef55fa11a155b0!2sWorld%20Konkani%20Centre!5e0!3m2!1sen!2sin!4v1599973948896!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
-      </div>
+    
+
 
       <div class="container" data-aos="fade-up">
 
@@ -34,11 +36,6 @@
                 <p>sushikshawkc@gmail.com</p>
               </div>
 
-{#              <div class="phone">#}
-{#                <i class="icofont-phone"></i>#}
-{#                <h4>Call:</h4>#}
-{#                <p>+91 8242231877</p>#}
-{#              </div>#}
 
             </div>
 
@@ -62,7 +59,8 @@
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" class="btn btn-primary">Send Message</button></div>
+
             </form>
 
           </div>
@@ -72,7 +70,11 @@
       </div>
     </section><!-- End Contact Section -->
 
-  </main><!-- End #main -->
+
+            </div>
+
+ </div>
+
 
 {% endblock content %}
 
