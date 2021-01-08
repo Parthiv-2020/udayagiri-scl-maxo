@@ -18,6 +18,7 @@ def contact(request):
         message.subject = subject
         message.comments = comment
         message.save()
+        messages.success(request, 'Your response is recorded')
         return redirect('contact')
     else:
         return render(request, 'webpages/contact.html',{})
