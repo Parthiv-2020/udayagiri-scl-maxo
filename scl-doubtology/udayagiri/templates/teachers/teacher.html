@@ -22,15 +22,16 @@
               <div class="member-img">
                 <img src="{{teacher.photo.url}}" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-facebook-square"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                  <a href=""><i class="fab fa-linkedin"></i></a>
+                  <a href="{{teacher.twitter_url}}"><i class="fab fa-twitter"></i></a>
+                  <a href="{{teacher.facebook_url}}"><i class="fab fa-facebook-square"></i></a>
+                  <a href="{{teacher.instagram_url}}"><i class="fab fa-instagram"></i></a>
+                  <a href="{{teacher.linkedin_url}}"><i class="fab fa-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <a href="{% url 'teacher_detail' teacher.id %}"><h4>{{teacher.name}}</h4></a>
-                <span></span>
+                <a href="{% url 'teacher_detail' teacher.id %}" class="font-weight-bold"><h4>{{teacher.name}}</h4></a>
+                <span>{{teacher.subject}}</span>
+                <span>Country code: {{teacher.country}}</span>
               </div>
             </div>
           </div>

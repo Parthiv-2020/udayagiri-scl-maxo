@@ -17,7 +17,7 @@
                                 <div class="row align-items-center no-gutters">
                                     <div class="col mr-2">
                                         <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>Earnings (monthly)</span></div>
-                                        <div class="text-dark font-weight-bold h5 mb-0"><span>$40,000</span></div>
+                                        <div class="text-dark font-weight-bold h5 mb-0"><span>${{teacher.salary_monthly}}</span></div>
                                     </div>
                                     <div class="col-auto"><i class="fas fa-calendar fa-2x text-gray-300"></i></div>
                                 </div>
@@ -30,7 +30,7 @@
                                 <div class="row align-items-center no-gutters">
                                     <div class="col mr-2">
                                         <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span>Earnings (annual)</span></div>
-                                        <div class="text-dark font-weight-bold h5 mb-0"><span>$215,000</span></div>
+                                        <div class="text-dark font-weight-bold h5 mb-0"><span>${{teacher.salary_annual}}</span></div>
                                     </div>
                                     <div class="col-auto"><i class="fas fa-dollar-sign fa-2x text-gray-300"></i></div>
                                 </div>
@@ -45,11 +45,11 @@
                                         <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span>Tasks</span></div>
                                         <div class="row no-gutters align-items-center">
                                             <div class="col-auto">
-                                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"><span>50%</span></div>
+                                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"><span>{{teacher.rating}}%</span></div>
                                             </div>
                                             <div class="col">
                                                 <div class="progress progress-sm">
-                                                    <div class="progress-bar bg-info" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                                                    <div class="progress-bar bg-info" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -65,7 +65,7 @@
                                 <div class="row align-items-center no-gutters">
                                     <div class="col mr-2">
                                         <div class="text-uppercase text-warning font-weight-bold text-xs mb-1"><span>Pending Requests</span></div>
-                                        <div class="text-dark font-weight-bold h5 mb-0"><span>18</span></div>
+                                        <div class="text-dark font-weight-bold h5 mb-0"><span>{{teacher.requests}}</span></div>
                                     </div>
                                     <div class="col-auto"><i class="fas fa-comments fa-2x text-gray-300"></i></div>
                                 </div>
@@ -78,7 +78,10 @@
       <div class="row">
         <div class="col-md-4 d-flex justify-content-center align-items-center">
           <h1 class="text-center">{{teacher.name}}</h1>
+          
+          
         </div>
+      
         <div class="col-md-4 d-flex justify-content-center align-items-center">
           <img src="{{teacher.photo.url}}" class="img-fluid rounded" alt="{{teacher.name}}">
         </div>
@@ -92,7 +95,8 @@
         
         <hr>
 
-      <h4>Descritpion</h4>
+      <h2>Descritpion</h2>
+      <p>Subject: {{teacher.subject}}</p>
       <p class="lead">
           {{teacher.description | safe }}
       </p>
