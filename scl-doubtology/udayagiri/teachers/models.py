@@ -33,6 +33,10 @@ class Teacher(models.Model):
     linkedin_url = models.CharField(max_length=400, blank=True)
     facebook_url = models.CharField(max_length=400, blank=True)
     instagram_url = models.CharField(max_length=400, blank=True)
+    salary_monthly = models.CharField(max_length=300, blank=True)
+    salary_annual = models.CharField(max_length=300, blank=True)
+    rating = models.CharField(max_length=300, blank=True)
+    requests = models.CharField(max_length=300, blank=True)
 
     def __str__(self):
         return self.name
