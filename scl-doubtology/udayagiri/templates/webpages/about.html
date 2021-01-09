@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block content %}
 
 
@@ -18,8 +18,8 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6 video-box align-self-baseline" >
-                        {% comment %} <img src="{% static 'assets/img/about.jpg' %}" class="img-fluid" alt=""> {% endcomment %}
+                    <div class="col-lg-6 video-box align-self-baseline text-center" >
+                        <img src="{% static 'webpages_static/sushikshalogo.png' %}" class="img-fluid" alt="Sushiksha">
                     </div>
 
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
@@ -38,7 +38,7 @@
 
                 <div class="row">
                     <div class="col-lg-6 wow order-1 order-lg-2" >
-                        {% comment %} <img src="{% static 'assets/img/about-3.JPG' %}" class="img-fluid" alt=""> {% endcomment %}
+                        <img src="{% static 'webpages_static/code.svg' %}" class="img-fluid" alt="Sushiksha Coding League">
                     </div>
 
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="150">
@@ -62,7 +62,7 @@
                 <div class="row">
 
                     <div class="col-lg-6 video-box align-self-baseline">
-                        {% comment %} <img src="{% static 'assets/img/about-4.JPG' %}" class="img-fluid" alt=""> {% endcomment %}
+                        <img src="{% static 'webpages_static/online.svg' %}" class="img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
