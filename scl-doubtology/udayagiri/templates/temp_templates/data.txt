@@ -1,0 +1,8 @@
+We do not collect any data regarding:
+Information like
+Device attributes: information such as the operating system, hardware and software versions, battery level, signal strength, browser, files etc.
+Device operations: information about operations and behaviors performed on the device, such as whether a window is foregrounded or backgrounded, or mouse movements.
+Identifiers, device signals, data from device settings, network and connections, cookie data etc.
+Computers, phones, connected TVs and other web-connected devices you use that integrate with our Products, device location.
+It is to be noticed that personal details and bank account details will not be collected through any form under this application 
+and the owners of the application shall not be held liable for the same under any circumstances.
