@@ -1,4 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib import messages
+from .models import Contact
 
 def home(request):
     return render(request, 'webpages/home.html')
@@ -6,6 +8,29 @@ def home(request):
 def about(request):
     return render(request, 'webpages/about.html')
 
+def team(request):
+    return render(request, 'webpages/team.html')
+
+def privacy(request):
+    return render(request, 'webpages/privacy.html')
+
+def license(request):
+    return render(request, 'webpages/license.html')
 
 def contact(request):
-    return render(request, 'webpages/contact.html')
+    if request.POST:
+        name = request.POST['name']
+        email = request.POST['email']
+        subject = request.POST['subject']
+        comment = request.POST['message']
+        message = Contact()
+        message.name = name
+        message.email = email
+        message.subject = subject
+        message.comments = comment
+        message.save()
+        messages.success(request, 'Your response is recorded')
+        return redirect('contact')
+    else:
+        return render(request, 'webpages/contact.html',{})
+    

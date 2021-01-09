@@ -1,0 +1,222 @@
+{% extends 'base.html' %}
+{% block content %}
+
+ <div class="d-flex flex-column" id="content-wrapper">
+
+{% include 'includes/search_bar.html' %}
+
+            <div class="container-fluid">
+                <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                    <h3 class="text-dark mb-0">Teachers</h3></div>
+
+<main class="single-page-tubers">
+                <div class="row">
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <div class="card shadow border-left-primary py-2">
+                            <div class="card-body">
+                                <div class="row align-items-center no-gutters">
+                                    <div class="col mr-2">
+                                        <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>Teaching Experience</span></div>
+                                        <div class="text-dark font-weight-bold h5 mb-0"><span>{{teacher.teaching_experience}}</span></div>
+                                    </div>
+                                    <div class="col-auto"><i class="fas fa-calendar fa-2x text-gray-300"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <div class="card shadow border-left-success py-2">
+                            <div class="card-body">
+                                <div class="row align-items-center no-gutters">
+                                    <div class="col mr-2">
+                                        <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span>Designation</span></div>
+                                        <div class="text-dark font-weight-bold h5 mb-0"><span>{{teacher.designation}}</span></div>
+                                    </div>
+                                    <div class="col-auto"><i class="fas fa-user-check fa-2x text-gray-300"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <div class="card shadow border-left-info py-2">
+                            <div class="card-body">
+                                <div class="row align-items-center no-gutters">
+                                    <div class="col mr-2">
+                                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span>Rating</span></div>
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col-auto">
+                                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"><span>{{teacher.rating}}</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto"><i class="fas fa-star-half-alt fa-2x text-gray-300"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <div class="card shadow border-left-warning py-2">
+                            <div class="card-body">
+                                <div class="row align-items-center no-gutters">
+                                    <div class="col mr-2">
+                                        <div class="text-uppercase text-warning font-weight-bold text-xs mb-1"><span>Pending Requests</span></div>
+                                        <div class="text-dark font-weight-bold h5 mb-0"><span>{{teacher.requests}}</span></div>
+                                    </div>
+                                    <div class="col-auto"><i class="fas fa-comments fa-2x text-gray-300"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<hr>
+    
+      <div class="row">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <h1 class="text-center">{{teacher.name}}</h1>
+          
+          
+        </div>
+      
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <img src="{{teacher.photo.url}}" class="img-fluid rounded" alt="{{teacher.name}}">
+        </div>
+      </div>
+      <hr>
+
+      <div class="row">
+      <div class="col-lg-6">
+      <p class="lead">Mail: {{teacher.mail}}</p>
+      </div>
+      <div class="col-lg-6">
+      <p class="lead">Awards: {{teacher.awards}}</p>
+      </div>
+      <div class="col-lg-6">
+      <p class="lead">Books Published: {{teacher.books_published}}</p>
+      </div>
+      <div class="col-lg-6">
+      <p class="lead">Area of Interest: {{teacher.area_of_interest}}</p>
+      </div>
+      </div>
+    
+    <h4 class="mt-4">Introduction video</h4>
+    <div class="embed-responsive embed-responsive-16by9 mb-3">
+      <iframe class="embed-responsive-item" src="{{teacher.video_url}}" allowfullscreen></iframe>
+    </div>
+        
+        <hr>
+
+      <h2>Descritpion</h2>
+      <p>Subject: {{teacher.subject}}</p>
+      <p class="lead">
+          {{teacher.description | safe }}
+      </p>
+    
+    <hr>
+                  <div class="col">
+                    <div class="row">
+                        <div class="col-lg-3 mb-4">
+                            <div class="card text-white bg-primary shadow">
+                                <div class="card-body">
+                                    <p class="text-white-50 m-0">Country</p>
+                                    <p class="m-0">{{teacher.country}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4">
+                            <div class="card text-white bg-info shadow">
+                                <div class="card-body">
+                                    <p class="text-white-50 m-0">City</p>
+                                    <p class="m-0">{{teacher.city}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4">
+                            <div class="card text-white bg-primary shadow">
+                                <div class="card-body">
+                                    <p class="text-white-50 m-0">Age</p>
+                                    <p class="m-0">{{teacher.age}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4">
+                            <div class="card text-white bg-info shadow">
+                                <div class="card-body">
+                                    <p class="text-white-50 m-0">Joined</p>
+                                    <p class="m-0">{{teacher.created_date}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<hr>
+    <section class="youtuber-form container mt-5 mb-5">
+      <div class="row">
+        <form method="POST" action="{% url 'student' %}" class="col-md-8 offset-md-2">
+          <h3 class="pt-2 pb-2">Fill the Form and reach out {{teacher.name}}</h3>
+          {% csrf_token %}
+          {% if user.is_authenticated %}
+          <input type="hidden" name="user_id" value="{{user.id}}">
+          {% else %}
+          <input type="hidden" name="user_id" value="00">
+          {% endif %}
+          <input type="hidden" name="tuber_id" value="{{teacher.id}}">
+
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <input name="first_name" class="form-control" placeholder="First Name" required>
+            </div>
+            <div class="form-group col-md-4">
+              <input name="last_name" class="form-control" placeholder="Last Name">
+            </div>
+            <div class="form-group col-md-4">
+              {% if user.is_authenticated %}
+              <input name="email" type="email" value="{{user.email}}" class="form-control" placeholder="Email">
+              {% else %}
+              <input name="email" type="email" class="form-control" placeholder="Email">
+              {% endif %}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <select name="tuber_name"  class="form-control">
+              <option selected disabled hidden>Select Teacher</option>
+             
+              <option value="{{teacher.name}}">{{teacher.name}}</option>
+             
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <input name="city" type="text" class="form-control" placeholder="City">
+            </div>
+            <div class="form-group col-md-4">
+              <input name="state" type="text" class="form-control" placeholder="State">
+            </div>
+            <div class="form-group col-md-4">
+              <input name="phone" type="text" class="form-control" placeholder="Phone Number">
+            </div>
+
+          </div>
+
+          <div class="form-group pt-2">
+            <textarea name="message" class="form-control" rows="3" placeholder="Details Message"></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Contact {{teacher.name}}</button>
+          </div>
+
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+  </div>
+ </div>
+
+
+
+
+{% endblock content %}
