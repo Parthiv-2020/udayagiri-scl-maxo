@@ -1,0 +1,12 @@
+DATA POLICY:
+
+This policy describes the information we process to support our application, the products and features offered by our application. 
+
+I. What kinds of information do we collect?
+To provide the services we offer, we must process information about you. The types of information we collect depend on how you use our Products.
+You can also access and delete the information we collect about you.
+Things you and others do and provide:
+Any general information and content you provide. We collect the content, communications and other information you provide when you use our Products, 
+including when you sign up for an account, create or share content, and message or communicate with others. 
+We only collect basic information like first name, last name, email id and the optional display picture if added.
+The display picture is completely optional and there will be obligation regarding the same under our "No Force Majeure Clause".
