@@ -10,7 +10,7 @@
   </a>
 <!-- Heads -->
   <h1 align="center">Udayagiri SCL</h1>
-  <h2 align="center">NoteRepo</h2>
+  <h2 align="center">Teacher </h2>
   <p align="center">
     All your Cheatsheets, Reference Books and Practice Papers, at One Place!
     <br />
@@ -29,9 +29,9 @@
 
 <!-- Repo detail Stickers -->
 <p align="center">                          
-    <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/issues"><img alt="GitHub issues" src=""></a>
-    <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/network"><img alt="GitHub forks" src=""></a>
-    <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/stargazers"><img alt="GitHub stars" src=""></a>
+ <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Parthiv-2020/udayagiri-scl-maxo?style=for-the-badge"></a>
+<a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Parthiv-2020/udayagiri-scl-maxo?style=for-the-badge"></a>
+<a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Parthiv-2020/udayagiri-scl-maxo?style=for-the-badge"></a>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -64,12 +64,12 @@
 
 #### A Note for Contributors
 
-```
+<i>
 This is a official project repo for Udayagiri-scl-maxo which is a 40-day Hackathon organised by Sushiksha, World Konkani Center.
 This repo is monitored. Only members from team Udayagiri are allowed to do changes and do contributions. 
 Thus, we are not supposed to accept any PRs from anyone other then Udayagiri team members. 
 For further details, you can get in touch with the repo owner or contributors. 
-```
+</i>
 
 
 #### Project Description
@@ -93,26 +93,17 @@ For further details, you can get in touch with the repo owner or contributors.
 2. Create a Virtual Environment for the Project
 
     In Windows
-    ```bash
-    pip install virtualenv
-    virtualenv venv
-    venv\Scripts\activate
+
+    Install pipenv package
+    ```
+    pip install pipenv
     ```
 
-    In Ubuntu/MacOS
     ```bash
-    python -m virtualenv venv
-
-    source venv/bin/activate
+    pipenv shell
+    pipenv install
     ```
-   
-   If you are using another name for the virtual environment other than `venv`, then please mention it in `.gitignore`.
 
-3. Install all the requirements
-
-    ```bash
-    pip install -r requirements.txt
-    ```
 ### Development
 
 4. Checkout to a different branch
