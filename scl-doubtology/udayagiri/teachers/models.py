@@ -22,6 +22,7 @@ class Teacher(models.Model):
     name = models.CharField(max_length=255)
     photo = models.ImageField(upload_to='media/ytubers/%Y/%m/')
     country = CountryField()
+    mail = models.CharField(max_length=300, blank=True)
     subject = models.CharField(choices=subject_choice, max_length=255)
     video_url = models.CharField(max_length=255)
     description = RichTextField()
@@ -33,10 +34,14 @@ class Teacher(models.Model):
     linkedin_url = models.CharField(max_length=400, blank=True)
     facebook_url = models.CharField(max_length=400, blank=True)
     instagram_url = models.CharField(max_length=400, blank=True)
-    salary_monthly = models.CharField(max_length=300, blank=True)
-    salary_annual = models.CharField(max_length=300, blank=True)
+    teaching_experience = models.CharField(max_length=300, blank=True)
+    qualification = models.CharField(max_length=300, blank=True)
+    designation = models.CharField(max_length=500, blank=True)
+    area_of_interest = models.CharField(max_length=500, blank=True)
     rating = models.CharField(max_length=300, blank=True)
     requests = models.CharField(max_length=300, blank=True)
+    awards = models.CharField(max_length=700, blank=True)
+    books_published = models.CharField(max_length=500, blank=True)
 
     def __str__(self):
         return self.name
