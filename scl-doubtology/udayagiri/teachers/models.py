@@ -29,6 +29,10 @@ class Teacher(models.Model):
     age = models.IntegerField()
     is_verified = models.BooleanField(default=False)
     created_date = models.DateTimeField(default=datetime.now, blank=True)
+    twitter_url = models.CharField(max_length=400, blank=True)
+    linkedin_url = models.CharField(max_length=400, blank=True)
+    facebook_url = models.CharField(max_length=400, blank=True)
+    instagram_url = models.CharField(max_length=400, blank=True)
 
     def __str__(self):
         return self.name

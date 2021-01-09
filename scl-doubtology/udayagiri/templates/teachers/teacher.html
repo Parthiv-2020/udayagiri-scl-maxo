@@ -29,8 +29,9 @@
                 </div>
               </div>
               <div class="member-info">
-                <a href="{% url 'teacher_detail' teacher.id %}"><h4>{{teacher.name}}</h4></a>
-                <span></span>
+                <a href="{% url 'teacher_detail' teacher.id %}" class="font-weight-bold"><h4>{{teacher.name}}</h4></a>
+                <span>{{teacher.subject}}</span>
+                <span>Country code: {{teacher.country}}</span>
               </div>
             </div>
           </div>
