@@ -11,7 +11,7 @@ SECRET_KEY = 'g_*mpw8ef7)6-my+-0dcu@+$)omdwzk_mot8a*zen4$&mz024%'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+LOGIN_REDIRECT_URL = 'home'
 
 
 INSTALLED_APPS = [
@@ -31,7 +31,10 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'ckeditor',
-    'crispy_forms'
+    'crispy_forms',
+    'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.facebook',
+
 ]
 
 MIDDLEWARE = [
