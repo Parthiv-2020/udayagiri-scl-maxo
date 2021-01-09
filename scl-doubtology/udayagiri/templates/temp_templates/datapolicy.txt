@@ -3,10 +3,34 @@ DATA POLICY:
 This policy describes the information we process to support our application, the products and features offered by our application. 
 
 I. What kinds of information do we collect?
-To provide the services we offer, we must process information about you. The types of information we collect depend on how you use our Products.
+
+To provide the services we offer, we must process information about you. The types of information we collect depend on how you use our application.
 You can also access and delete the information we collect about you.
-Things you and others do and provide:
-Any general information and content you provide. We collect the content, communications and other information you provide when you use our Products, 
+Any general information and content you provide. We collect the content, communications and other information you provide when you use our application, 
 including when you sign up for an account, create or share content, and message or communicate with others. 
 We only collect basic information like first name, last name, email id and the optional display picture if added.
-The display picture is completely optional and there will be obligation regarding the same under our "No Force Majeure Clause".
+The display picture is completely optional and there will be obligation regarding the same.
+We receive and analyze content, communications and information that other people provide when they use our Products.
+
+We do not collect any data regarding:
+Information like device attributes,signals, data from device settings, network and connections, cookie data etc.
+Computers, phones, connected TVs and other web-connected devices you use that integrate with our Products, device location.
+It is to be noticed that personal details and bank account details will not be collected through any form under this application 
+and the owners of the application shall not be held liable for the same under any circumstances.
+
+II. How do we use this information?
+
+Provide measurement, analytics, and other business services.
+We use the information we have to help measure the effectiveness and distribution and understand the types of people who use our services and it's impact
+
+Promote safety, integrity and security.
+We use the information we have to verify accounts and activity, combat harmful conduct, detect and prevent spam and other bad experiences, 
+maintain the integrity of our Products, and promote safety and security.
+
+Communicate with you.
+We use the information we have to send you marketing communications, communicate with you about our Products, and let you know about our policies and terms. 
+We also use your information to respond to you when you contact us.
+
+Research and innovate for social good.
+We use the information we have to conduct and support researchFor example, we learn about the requirement of the students and connect them to relevant lecturers.
+Therefore facilitating better learning which is the motive of the project.
