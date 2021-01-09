@@ -4,29 +4,16 @@ This policy describes the information we process to support our application, the
 
 I. What kinds of information do we collect?
 
-To provide the services we offer, we must process information about you. The types of information we collect depend on how you use our Products.
+To provide the services we offer, we must process information about you. The types of information we collect depend on how you use our application.
 You can also access and delete the information we collect about you.
-Things you and others do and provide:
-Any general information and content you provide. We collect the content, communications and other information you provide when you use our Products, 
+Any general information and content you provide. We collect the content, communications and other information you provide when you use our application, 
 including when you sign up for an account, create or share content, and message or communicate with others. 
 We only collect basic information like first name, last name, email id and the optional display picture if added.
-The display picture is completely optional and there will be obligation regarding the same under our "No Force Majeure Clause".
-
-"No Force Majeure Clause": 
-This is a common clause in contracts which essentially frees both parties from liability or obligation when an extraordinary event or circumstance 
-beyond the control of the parties, such as cybercrime, data breach or any such event described by the legal term, 
-prevents one or both parties from fulfilling their obligations under the contract. 
-Force majeure in any given situation is controlled by the law governing the contract, rather than general concepts of force majeure. 
-The law of the contract often specified by a choice of law clause in the agreement, and if not is decided by a statute or principles of general law which apply to the contract. 
-The first step to assess whether - and how - force majeure applies to any particular contract is to ascertain the law of our team which governs the contract.
-You can also learn more about how you can control who can see the things you share.
-We also receive and analyze content, communications and information that other people provide when they use our Products.
+The display picture is completely optional and there will be obligation regarding the same.
+We receive and analyze content, communications and information that other people provide when they use our Products.
 
 We do not collect any data regarding:
-Information like
-Device attributes: information such as the operating system, hardware and software versions, battery level, signal strength, browser, files etc.
-Device operations: information about operations and behaviors performed on the device, such as whether a window is foregrounded or backgrounded, or mouse movements.
-Identifiers, device signals, data from device settings, network and connections, cookie data etc.
+Information like device attributes,signals, data from device settings, network and connections, cookie data etc.
 Computers, phones, connected TVs and other web-connected devices you use that integrate with our Products, device location.
 It is to be noticed that personal details and bank account details will not be collected through any form under this application 
 and the owners of the application shall not be held liable for the same under any circumstances.

@@ -1,9 +1,0 @@
-"No Force Majeure Clause": 
-This is a common clause in contracts which essentially frees both parties from liability or obligation when an extraordinary event or circumstance 
-beyond the control of the parties, such as cybercrime, data breach or any such event described by the legal term, 
-prevents one or both parties from fulfilling their obligations under the contract. 
-Force majeure in any given situation is controlled by the law governing the contract, rather than general concepts of force majeure. 
-The law of the contract often specified by a choice of law clause in the agreement, and if not is decided by a statute or principles of general law which apply to the contract. 
-The first step to assess whether - and how - force majeure applies to any particular contract is to ascertain the law of our team which governs the contract.
-You can also learn more about how you can control who can see the things you share.
-We also receive and analyze content, communications and information that other people provide when they use our Products.
