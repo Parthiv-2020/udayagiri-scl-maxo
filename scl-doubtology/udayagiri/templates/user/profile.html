@@ -3,6 +3,7 @@
 {% load crispy_forms_filters %}
 {% load crispy_forms_tags %}
 {% block content %}
+
         <div class="d-flex flex-column" id="content-wrapper">
 
 {% include 'includes/search_bar.html' %}
@@ -15,6 +16,9 @@
                             <div class="card-body text-center shadow"><img class="rounded-circle mb-3 mt-4" src="{{request.user.profile.image.url}}" width="160" height="160">
                             </div>
                         </div>
+                        <div class="mb-3">
+                        <img src="{% static 'webpages_static/profile.svg' %}" class="img-fluid" alt="Sushiksha">
+                    </div>
 
                     </div>
                     <div class="col-lg-8">
@@ -46,6 +50,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
 
