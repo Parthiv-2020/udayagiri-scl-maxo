@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
+{% load static %}
 
  <div class="d-flex flex-column" id="content-wrapper">
 
@@ -9,7 +10,43 @@
                 <div class="d-sm-flex justify-content-between align-items-center mb-4">
                     <h3 class="text-dark mb-0">License</h3></div>
 
+                <div class="container">
 
+                <div class="row">
+
+                    <div class="col-lg-4 video-box align-self-baseline text-center" >
+                        <img src="{% static 'webpages_static/license.svg' %}" class="img-fluid" alt="Sushiksha">
+                    </div>
+
+                    <div class="col-lg-8 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                        <h3>MIT License</h3>
+                        
+<p>
+Copyright (c) 2020 Udayagri-2021</p>
+<p>
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+</p>
+<p>
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+<p>
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</p>
+
+                    </div>
+                </div>
+            </div>
 
             </div>
  </div>
