@@ -11,6 +11,12 @@ def about(request):
 def team(request):
     return render(request, 'webpages/team.html')
 
+def privacy(request):
+    return render(request, 'webpages/privacy.html')
+
+def license(request):
+    return render(request, 'webpages/license.html')
+
 def contact(request):
     if request.POST:
         name = request.POST['name']
