@@ -1,0 +1,13 @@
+
+This initiative is a part of Sushiksha Coding League.
+
+About SCL:
+
+Sushiksha Coding League is nothing but a Coding School Initiative with a difference. 
+The Coding School thought was infact ignited by Shri T V Mohandas Pai from the Prerna Stage in 2020. 
+The Alumni took it forward and brought a cool quotient to the brand with a feel of cricketing spirit. The Tagline of SCL is “Anybody Can Code”
+ – it means a great coder can come from any corner of the world.
+SCL is spread across Six weeks into Two Phases. The SCL Mini, a short duration phase as the name suggests, with a couple of Workshops in Python,
+Web development and Flask followed by a Sandbox Hackathon. This is just to make sure all the teams and participants are thorough with the basics of programming. 
+This project is a part of the SCL Maxo where the teams develop a solution for a problem, applying technology to solve real life problems!
+ 
