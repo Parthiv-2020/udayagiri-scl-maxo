@@ -16,8 +16,8 @@
                             <div class="card-body">
                                 <div class="row align-items-center no-gutters">
                                     <div class="col mr-2">
-                                        <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>Earnings (monthly)</span></div>
-                                        <div class="text-dark font-weight-bold h5 mb-0"><span>${{teacher.salary_monthly}}</span></div>
+                                        <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>Teaching Experience</span></div>
+                                        <div class="text-dark font-weight-bold h5 mb-0"><span>{{teacher.teaching_experience}}</span></div>
                                     </div>
                                     <div class="col-auto"><i class="fas fa-calendar fa-2x text-gray-300"></i></div>
                                 </div>
@@ -29,10 +29,10 @@
                             <div class="card-body">
                                 <div class="row align-items-center no-gutters">
                                     <div class="col mr-2">
-                                        <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span>Earnings (annual)</span></div>
-                                        <div class="text-dark font-weight-bold h5 mb-0"><span>${{teacher.salary_annual}}</span></div>
+                                        <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span>Designation</span></div>
+                                        <div class="text-dark font-weight-bold h5 mb-0"><span>{{teacher.designation}}</span></div>
                                     </div>
-                                    <div class="col-auto"><i class="fas fa-dollar-sign fa-2x text-gray-300"></i></div>
+                                    <div class="col-auto"><i class="fas fa-user-check fa-2x text-gray-300"></i></div>
                                 </div>
                             </div>
                         </div>
@@ -42,19 +42,14 @@
                             <div class="card-body">
                                 <div class="row align-items-center no-gutters">
                                     <div class="col mr-2">
-                                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span>Tasks</span></div>
+                                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span>Rating</span></div>
                                         <div class="row no-gutters align-items-center">
                                             <div class="col-auto">
-                                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"><span>{{teacher.rating}}%</span></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="progress progress-sm">
-                                                    <div class="progress-bar bg-info" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
-                                                </div>
+                                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"><span>{{teacher.rating}}</span></div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto"><i class="fas fa-clipboard-list fa-2x text-gray-300"></i></div>
+                                    <div class="col-auto"><i class="fas fa-star-half-alt fa-2x text-gray-300"></i></div>
                                 </div>
                             </div>
                         </div>
@@ -87,6 +82,21 @@
         </div>
       </div>
       <hr>
+
+      <div class="row">
+      <div class="col-lg-6">
+      <p class="lead">Mail: {{teacher.mail}}</p>
+      </div>
+      <div class="col-lg-6">
+      <p class="lead">Awards: {{teacher.awards}}</p>
+      </div>
+      <div class="col-lg-6">
+      <p class="lead">Books Published: {{teacher.books_published}}</p>
+      </div>
+      <div class="col-lg-6">
+      <p class="lead">Area of Interest: {{teacher.area_of_interest}}</p>
+      </div>
+      </div>
     
     <h4 class="mt-4">Introduction video</h4>
     <div class="embed-responsive embed-responsive-16by9 mb-3">
