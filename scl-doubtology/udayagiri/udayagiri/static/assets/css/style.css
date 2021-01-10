@@ -1,24 +1,17 @@
-/**
-* Template Name: Baker - v2.2.0
-* Template URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #4e73df;
 }
 
 a {
-  color: #ffc107;
+  color: #2827CC;
 }
 
 a:hover {
-  color: #ffce3a;
+  color: #3944F7;
   text-decoration: none;
 }
 
@@ -37,21 +30,10 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99999;
 }
 
-.back-to-top i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  background: #ffc107;
-  color: #fff;
-  transition: all 0.4s;
-}
+
 
 .back-to-top i:hover {
-  background: #ffce3a;
+  background: #4e73df;
   color: #fff;
 }
 
@@ -1095,7 +1077,7 @@ section {
 }
 
 .pricing .featured .btn-buy:hover {
-  background: #ffce3a;
+  background: #4e73df;
 }
 
 .pricing .advanced {
@@ -1150,7 +1132,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #ffce3a;
+  color: #4e73df;
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
@@ -1307,7 +1289,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ffce3a;
+  background: #4e73df;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1516,7 +1498,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #ffce3a;
+  background: #4e73df;
 }
 
 #footer .credits {
@@ -1540,6 +1522,6 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #ffce3a;
+  background: #4e73df;
   text-decoration: none;
 }
