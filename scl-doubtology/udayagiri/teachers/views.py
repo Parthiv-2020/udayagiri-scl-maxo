@@ -1,7 +1,9 @@
 from django.shortcuts import get_object_or_404, render
 from .models import Teacher
+from django.contrib.auth.decorators import login_required
 
 
+@login_required
 def teachers(request):
     teachers = Teacher.objects.order_by('-created_date')
     data = {
@@ -10,6 +12,7 @@ def teachers(request):
     return render(request, 'teachers/teacher.html', data)
 
 
+@login_required
 def teacher_detail(request, id):
     teacher = get_object_or_404(Teacher, pk=id)
     data = {

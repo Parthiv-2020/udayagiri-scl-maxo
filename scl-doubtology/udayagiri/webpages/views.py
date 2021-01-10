@@ -1,22 +1,28 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .models import Contact
+from django.contrib.auth.decorators import login_required
 
+@login_required
 def home(request):
     return render(request, 'webpages/home.html')
 
 def about(request):
     return render(request, 'webpages/about.html')
 
+@login_required
 def team(request):
     return render(request, 'webpages/team.html')
 
+@login_required
 def privacy(request):
     return render(request, 'webpages/privacy.html')
 
+@login_required
 def license(request):
     return render(request, 'webpages/license.html')
 
+@login_required
 def contact(request):
     if request.POST:
         name = request.POST['name']
