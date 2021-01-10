@@ -11,7 +11,6 @@ class Role(models.Model):
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     image = models.ImageField(upload_to='media/profile_pics/%Y/%m/', default='media/profile_pics/default.png')
-    # role = models.ForeignKey(Role, on_delete=models.CASCADE)
 
     def __str__(self):
         return f'Praneeth'

@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib import auth, messages
 from django.contrib.auth.models import User
 from django.contrib.auth import logout
+from django.contrib.auth.decorators import login_required
 from .forms import UserUpdateForm, ProfileUpdateForm
 
 def user_login(request):
@@ -50,6 +51,7 @@ def user_register(request):
         
     return render(request, 'auth_templates/register.html')
 
+@login_required
 def user_profile(request):
     if request.POST:
         u_form = UserUpdateForm(request.POST, instance=request.user)
@@ -79,30 +81,3 @@ def user_logout(request):
     logout(request)
     return redirect('home')
 
-
-# def profile(request):
-#     reward, count = collect_badges(request.user)
-#     zipped_data = zip(reward, count)
-#     if request.POST:
-#         u_form = UserUpdateForm(request.POST, instance=request.user)
-#         p_form = ProfileUpdateForm(request.POST,
-#                                    request.FILES,
-#                                    instance=request.user.profile)
-#         if u_form.is_valid() and p_form.is_valid():
-#             u_form.save()
-#             p_form.save()
-
-#             messages.success(request, f'Your Account has been Updated')
-#             return redirect('profile')
-
-#     else:
-#         u_form = UserUpdateForm(instance=request.user)
-#         p_form = ProfileUpdateForm(instance=request.user.profile)
-
-#     context = {
-#         'u_form': u_form,
-#         'p_form': p_form,
-#         'title': "Profile",
-#         'badges': zipped_data,
-#     }
-#     return render(request, 'profile.html', context=context)
