@@ -3,8 +3,6 @@ from django.contrib import messages
 from .models import Contact
 from django.contrib.auth.decorators import login_required
 
-# def landing_page(request):
-#     return render(request, 'webpages/index.html')
 
 def home(request):
     if request.user.is_authenticated:
