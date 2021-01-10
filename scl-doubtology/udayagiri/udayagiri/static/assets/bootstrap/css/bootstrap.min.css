@@ -1,3 +1,4 @@
+
 /*Selecion*/
 
 ::-moz-selection {
@@ -46,14 +47,6 @@
 }
 
 @import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
-
-/*!
- * Bootstrap v4.5.2 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-
 :root {
     --blue: #4e73df;
     --indigo: #6610f2;
