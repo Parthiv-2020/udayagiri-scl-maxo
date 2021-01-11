@@ -1,7 +1,8 @@
 {% extends 'auth_base.html' %}
 {% block content %}
 {% load static %}
-
+{% load socialaccount %}
+{% providers_media_js %}
 <div class="card shadow-lg o-hidden border-0 my-5">
             <div class="card-body p-0">
                 <div class="row">
@@ -27,10 +28,10 @@
                                     <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="password" id="examplePasswordInput" placeholder="Password" name="password" required=""></div>
                                     <div class="col-sm-6"><input class="form-control form-control-user" type="password" id="exampleRepeatPasswordInput" placeholder="Repeat Password" name="confirm_password" required=""></div>
                                 </div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Register Account</button>
-                                <hr><a class="btn btn-primary btn-block text-white btn-google btn-user" role="button"><i class="fab fa-google"></i>&nbsp; Register with Google</a><a class="btn btn-primary btn-block text-white btn-facebook btn-user" role="button"><i class="fab fa-facebook-f"></i>&nbsp; Register with Facebook</a>
+                                 <hr><a class="btn btn-primary btn-block text-white btn-google btn-user" href="{% provider_login_url 'google' method='oauth2' %}"  role="button"><i class="fab fa-google"></i>&nbsp; Register with Google</a><a class="btn btn-primary btn-block text-white btn-facebook btn-user" href="{% provider_login_url 'facebook' method='oauth2' %}" role="button"><i class="fab fa-facebook-f"></i>&nbsp; Register with Facebook</a>
                                 <hr>
                             </form>
-                            <div class="text-center"><a class="small" href="{% url 'forgot_password' %}">Forgot Password?</a></div>
+                            {% comment %} <div class="text-center"><a class="small" href="{% url 'forgot_password' %}">Forgot Password?</a></div> {% endcomment %}
                             <div class="text-center"><a class="small" href="{% url 'login' %}">Already have an account? Login!</a></div>
                         </div>
                     </div>
