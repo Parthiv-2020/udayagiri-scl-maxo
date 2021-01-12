@@ -1,13 +1,18 @@
 from django.shortcuts import get_object_or_404, render
 from .models import Teacher
 from django.contrib.auth.decorators import login_required
-
+from .filters import TeacherFilter
 
 @login_required
 def teachers(request):
+    
     teachers = Teacher.objects.order_by('-created_date')
+    teacher_filter = TeacherFilter(request.GET, queryset=teachers)
+    teachers = teacher_filter.qs
+    
     data = {
-        'teachers': teachers
+        'teachers': teachers,
+        'teacher_filter': teacher_filter
     }
     return render(request, 'teachers/teacher.html', data)
 
