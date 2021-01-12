@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'allauth.socialaccount.providers.google',
     'allauth.socialaccount.providers.facebook',
+    'django_filters',
 
 ]
 

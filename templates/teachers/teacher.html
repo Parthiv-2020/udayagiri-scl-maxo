@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% block content %}
 {% load static %}
+{% load crispy_forms_filters %}
+{% load crispy_forms_tags %}
  <div class="d-flex flex-column" id="content-wrapper">
 
 {% include 'includes/search_bar.html' %}
@@ -13,22 +15,29 @@
     <section id="team" class="team section-bg">
       <div class="container">
 
+          <p class="mb-2">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Filter options &#8681;
+            </button>
+          </p> 
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body mb-3 ">
+                <form method="GET" class="mb-3" class="form-inline">
+        
+                  {{teacher_filter.form | crispy}}
+          
+                <button class="btn btn-primary" type="submit">Filter</button>
+                </form> 
+                            </div>
+          </div>
 
-<div class="row">
 
-                    <div class="col-lg-4 video-box align-self-baseline text-center mb-5" >
-                        <img src="{% static 'webpages_static/teacher.svg' %}"  class="img-fluid" alt="Sushiksha">
-                    </div>
 
-                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-                        <h3>Opt the right tutor!</h3>
-                        <br>
-                      <p class="lead">
-                      A good education can change anyone and a good teacher can change everything.
-                      </p>
+           
+                
+               
 
-                    </div>
-                </div>
+
 
         <div class="row">
 
