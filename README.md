@@ -1,31 +1,24 @@
-# udayagiri-scl-maxo
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-<!-- Logos -->
-<br />
-<p align="center">
-  <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/blob/main/README.md">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" alt="Logo" width="80" height="80"> &nbsp;
-    <a href="http://www.djangoproject.com/"><img src="https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif" border="0" alt="Powered by Django." title="Powered by Django." /></a>  
-    <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="100" height="80">  
-  </a>
-<!-- Heads -->
-  <h1 align="center">Udayagiri SCL</h1>
-  <h2 align="center">Teacher </h2>
-  <p align="center">
-    All your Cheatsheets, Reference Books and Practice Papers, at One Place!
-    <br />
-    <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/blob/main/README.md"><strong>Documentation</strong></a>
-    <br />
-    <br />
-    <a href="#">View a Live Demo</a>
-    · 
-    <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/issues/new">Report a Bug</a>
-    ·
-    <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/issues/new">Request a Feature</a>
-  </p>
-</p>
-    <br />
-    <br />
+<div class="jumbotron">
+  <h1 class="display-4">Tutorvita</h1>
+  <p class="lead">With the outbreak of pandemic, the educational institutions had to be shutdown which hindered the learning of a lot of students.The students have to adapt to the online methods of learning which is now the new norm. Reaching out to teachers and resource personals is a rather difficult task. With this project, any student from any corner of the world, willing to learn something can reachout to a teacher. Anyone can create an account and seek help from our verified lecturers.</p>
+  <hr class="my-4">
+</div>
+
+<div class="text-center mb-3">
+<a href="https://tutorvita.herokuapp.com/"><img src="https://forthebadge.com/images/badges/open-source.svg" border="0" title="Open Source" /></a> 
+<a href="https://tutorvita.herokuapp.com/"><img src="https://forthebadge.com/images/badges/built-with-love.svg" border="0" title="Built with ❤ By Udayagiri team" /></a> 
+<a href="https://tutorvita.herokuapp.com/"><img src="https://forthebadge.com/images/badges/made-with-python.svg" border="0" title="Made with Python" /></a>  
+</div>
+
+<div class="text-center mb-3">
+<h1 class="display-3">Udayagir's Tutorvita</h1>
+<a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/blob/main/README.md" class="badge badge-primary">Documentation</a>
+<a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/issues/new" class="badge badge-primary">Report a Bug</a>
+<a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/issues/new" class="badge badge-primary">Request a Feature</a>
+</div>
+
 
 <!-- Repo detail Stickers -->
 <p align="center">                          
