@@ -1,0 +1,1 @@
+web: gunicorn udayagiri.wsgi --log-file -
