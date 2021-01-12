@@ -6,18 +6,17 @@
   <hr class="my-4">
 </div>
 
-<div class="text-center mb-3">
+<p class="text-center mb-3" align="center">
 <a href="https://tutorvita.herokuapp.com/"><img src="https://forthebadge.com/images/badges/open-source.svg" border="0" title="Open Source" /></a> 
 <a href="https://tutorvita.herokuapp.com/"><img src="https://forthebadge.com/images/badges/built-with-love.svg" border="0" title="Built with ❤ By Udayagiri team" /></a> 
 <a href="https://tutorvita.herokuapp.com/"><img src="https://forthebadge.com/images/badges/made-with-python.svg" border="0" title="Made with Python" /></a>  
-</div>
+</p>
 
-<div class="text-center mb-3">
-<h1 class="display-3">Udayagir's Tutorvita</h1>
+<p class="text-center mb-3" align="center">
 <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/blob/main/README.md" class="badge badge-primary">Documentation</a>
 <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/issues/new" class="badge badge-primary">Report a Bug</a>
 <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/issues/new" class="badge badge-primary">Request a Feature</a>
-</div>
+</p>
 
 
 <!-- Repo detail Stickers -->
