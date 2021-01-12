@@ -134,6 +134,14 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # ACCOUNT_EMAIL_VERIFICATION = 'none'
 
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'udayagiri.tutorvita@gmail.com'
+EMAIL_HOST_PASSWORD = 'your password here'
+
 CKEDITOR_CONFIGS = {
    'default': {
        'toolbar_Full': [
