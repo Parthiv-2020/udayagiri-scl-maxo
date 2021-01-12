@@ -1,7 +1,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
 <div class="jumbotron">
-  <h1 class="display-4">Tutorvita</h1>
+  <h1 class="display-4">Udayagiri's Tutorvita</h1>
   <p class="lead">With the outbreak of pandemic, the educational institutions had to be shutdown which hindered the learning of a lot of students.The students have to adapt to the online methods of learning which is now the new norm. Reaching out to teachers and resource personals is a rather difficult task. With this project, any student from any corner of the world, willing to learn something can reachout to a teacher. Anyone can create an account and seek help from our verified lecturers.</p>
   <hr class="my-4">
 </div>
@@ -84,12 +84,12 @@ For further details, you can get in touch with the repo owner or contributors.
 
 2. Create a Virtual Environment for the Project
 
-    In Windows
-
     Install pipenv package
     ```
     pip install pipenv
     ```
+
+    Run following command to create virtual env and install necessary dependecies. 
 
     ```bash
     pipenv shell
@@ -98,15 +98,8 @@ For further details, you can get in touch with the repo owner or contributors.
 
 ### Development
 
-4. Checkout to a different branch
-     ```git
-    git status
-    git pull
-    git branch
-    git checkout -b <your-branch-here>
-    ```
    
-5. Make migrations/ Create db.sqlite3
+3. Make migrations/ Create db.sqlite3
 
     ```bash
     python manage.py makemigrations
@@ -124,9 +117,7 @@ For further details, you can get in touch with the repo owner or contributors.
     ```bash
     python manage.py runserver
     ```
-
-8. Make the changes and send a PR, referencing the changes.
    
 
 ## Contributing
-   Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change in the project.
+   Pull request are only welcommed by Udayagiri team members, if you are intereseted in the project please raise a issue regarding the same.
