@@ -64,6 +64,7 @@ coverage.xml
 local_settings.py
 db.sqlite3-journal
 db.sqlite3
+mydatabase
 # Flask stuff:
 instance/
 .webassets-cache

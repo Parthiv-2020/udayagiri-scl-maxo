@@ -12,6 +12,8 @@ django-allauth = "*"
 django-ckeditor = "*"
 django-countries = "*"
 django-crispy-forms = "*"
+gunicorn = "*"
+django-heroku = "*"
 
 [dev-packages]
 
