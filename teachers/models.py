@@ -34,7 +34,7 @@ class Teacher(models.Model):
     linkedin_url = models.CharField(max_length=400, blank=True)
     facebook_url = models.CharField(max_length=400, blank=True)
     instagram_url = models.CharField(max_length=400, blank=True)
-    teaching_experience = models.CharField(max_length=300, blank=True)
+    teaching_experience = models.IntegerField(default=1)
     qualification = models.CharField(max_length=300, blank=True)
     designation = models.CharField(max_length=500, blank=True)
     area_of_interest = models.CharField(max_length=500, blank=True)
