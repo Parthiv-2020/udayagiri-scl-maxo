@@ -95,6 +95,10 @@ For further details, you can get in touch with the repo owner or contributors.
     pipenv shell
     pipenv install
     ```
+    If `pipenv install` does not work use:
+    ```
+    pip install -r requirements.txt
+    ```
 
 ### Development
 
