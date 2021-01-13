@@ -76,6 +76,10 @@ For further details, you can get in touch with the repo owner or contributors.
 
 ### Installation 
 
+Refer below video or instruction for setting up tutorvita in your device.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hdlEnNZ_NdU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 1. Fork and Clone
     <ol>
     <li>Fork the udayagiri-scl-maxo Repository</li>
