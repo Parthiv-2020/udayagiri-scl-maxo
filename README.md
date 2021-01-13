@@ -78,7 +78,9 @@ For further details, you can get in touch with the repo owner or contributors.
 
 Refer below video or instruction for setting up tutorvita in your device.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hdlEnNZ_NdU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p align="center">
+<a href="https://youtu.be/hdlEnNZ_NdU" border="0" title="Tutorvita installation click to play.."><img src="uploads/ss.png></a>
+  </p>
 
 1. Fork and Clone
     <ol>
