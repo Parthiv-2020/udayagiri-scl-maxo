@@ -1,0 +1,2 @@
+# Note to the contributers.
+<i>This is a official project repo for Udayagiri-scl-maxo which is a 40-day Hackathon. It is organised by Sushiksha, World Konkani Center. This repo is monitored. Only members from team Udayagiri are allowed to do changes and do contributions. Thus, we are not supposed to accept any PRs from anyone other then Udayagiri team members. For further details, you can get in touch with the repo owner or contributors.</i>
