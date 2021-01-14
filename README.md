@@ -76,6 +76,10 @@ For further details, you can get in touch with the repo owner or contributors.
 
 ### Installation 
 
+Refer below video or instruction for setting up tutorvita in your device.
+<p align="center">
+<a href="https://youtu.be/hdlEnNZ_NdU" border="0" title="Tutorvita installation click to play.."> <img src="uploads/ss.png" ></a>
+</p>
 1. Fork and Clone
     <ol>
     <li>Fork the udayagiri-scl-maxo Repository</li>
@@ -94,6 +98,10 @@ For further details, you can get in touch with the repo owner or contributors.
     ```bash
     pipenv shell
     pipenv install
+    ```
+    If `pipenv install` does not work use:
+    ```
+    pip install -r requirements.txt
     ```
 
 ### Development
