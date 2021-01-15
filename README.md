@@ -107,6 +107,8 @@ Refer below video or instruction for setting up tutorvita in your device.
     ```
     pip install -r requirements.txt
     ```
+    
+    Now after installing all the packages you can directly skip the development steps as we already added a sample user in database.
 
 ### Development
 
@@ -118,18 +120,23 @@ Refer below video or instruction for setting up tutorvita in your device.
     python manage.py migrate
     ```
 
-6. Create a super user.
+4. Create a super user.
     In Django, if you want to access admin page, you need to create an account with staff status first.
     ```djangotemplate
     python manage.py createsuperuser
     ```
    Then select your username and password. You can bypass a common password for development purposes.
    
-7. Run the server on localhost:
+5. Run the server on localhost:
     ```bash
     python manage.py runserver
     ```
-   
+6. Use below credetial if you want to login to admin panel/you can also create your own super user using above command
+
+```
+username: admin
+password: admin
+```
 
 ## Contributing
    Pull request are only welcommed by Udayagiri team members, if you are intereseted in the project please raise a issue regarding the same.
