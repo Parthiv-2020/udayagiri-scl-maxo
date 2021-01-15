@@ -13,7 +13,7 @@
 </p>
 
 <p class="text-center mb-3" align="center">
-<a href="https://drive.google.com/file/d/1Xd6Xwj3B42yBxgnei0NbWt5N805BJMfX/view?usp=sharing" class="badge badge-primary">Documentation</a> 🔰
+<a href="https://drive.google.com/file/d/1KEdmz_dp8wEAQ0nD5dW4QNoOwoZ0l9mP/view?usp=sharing" class="badge badge-primary">Documentation</a> 🔰
 <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/issues/new" class="badge badge-primary">Report a Bug</a> 🔰
 <a href="https://github.com/Parthiv-2020/udayagiri-scl-maxo/issues/new" class="badge badge-primary">Request a Feature</a>
 </p>
